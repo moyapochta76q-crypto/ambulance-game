@@ -24,14 +24,16 @@ jobs:
 
       - name: Install dependencies
         run: npm install
+        working-directory: ./ambulance-driving-game-for-toddlers
 
       - name: Build
         run: npm run build
+        working-directory: ./ambulance-driving-game-for-toddlers
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: ./dist
+          path: ./ambulance-driving-game-for-toddlers/dist
 
   deploy:
     environment:
