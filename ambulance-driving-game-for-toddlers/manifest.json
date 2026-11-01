@@ -1,6 +1,6 @@
 {
   "name": "Ambulance Driving Game",
-  "short_name": "Ambulance Game",
+  "short_name": "Ambulance",
   "description": "Игра для малышей — управление скорой помощью",
   "start_url": "./index.html",
   "display": "standalone",
@@ -17,5 +17,7 @@
       "sizes": "512x512",
       "type": "image/png"
     }
-  ]
+  ],
+  "id": "ambulance-game",
+  "orientation": "landscape"
 }
